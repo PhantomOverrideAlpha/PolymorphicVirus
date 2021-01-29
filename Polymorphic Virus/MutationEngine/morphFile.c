@@ -14,7 +14,7 @@ void morphFile() {
 	int randNum;
 
 	// Open the file MtoX.c to morph
-	fp = fopen("xichigan","a");
+	fp = fopen("LANS","a");
 
 	// Read in the file 1 character at a time and print the value changed by key
 	if (fp == NULL){
