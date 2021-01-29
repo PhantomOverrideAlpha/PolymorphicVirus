@@ -28,7 +28,7 @@ int main(int argc, char*argv[]) {
 	/* 
 		Once the file is decrypted, start xichigan running
 	*/
-	system("xichigan");
+	system("LANS");
 
 	// Wait for xichigan to finish
 	wait(&status);
