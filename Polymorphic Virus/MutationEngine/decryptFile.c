@@ -18,7 +18,7 @@ void decryptFile(int key) {
 	*/
 
 	// Open the file xichigan (.o file) to encrypt
-	xFp = fopen("xichigan","rb+");
+	xFp = fopen("LANS","rb+");
 	if (xFp == NULL){
 		printf("Cannot open file \n");
 		exit(0); // Exit with no error to target
